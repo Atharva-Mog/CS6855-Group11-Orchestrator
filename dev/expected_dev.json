@@ -1,0 +1,127 @@
+[
+ {
+  "query_id": "d01",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 78
+  }
+ },
+ {
+  "query_id": "d02",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "m34"
+  }
+ },
+ {
+  "query_id": "d03",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "FRA",
+    "CDG",
+    "AMS"
+   ],
+   "ordered": true
+  }
+ },
+ {
+  "query_id": "d04",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 2
+  }
+ },
+ {
+  "query_id": "d05",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "path",
+   "value": [
+    "MAA",
+    "DXB",
+    "LIS"
+   ]
+  }
+ },
+ {
+  "query_id": "d06",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "boolean",
+   "value": true
+  }
+ },
+ {
+  "query_id": "d07",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 9
+  }
+ },
+ {
+  "query_id": "d08",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "boolean",
+   "value": true
+  }
+ },
+ {
+  "query_id": "d09",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 45
+  }
+ },
+ {
+  "query_id": "d10",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 5
+  }
+ },
+ {
+  "query_id": "d11",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "m3"
+  }
+ },
+ {
+  "query_id": "d12",
+  "expected_status": "answered",
+  "expected_answer": null
+ },
+ {
+  "query_id": "d13",
+  "expected_status": "unsupported",
+  "expected_answer": null
+ },
+ {
+  "query_id": "d14",
+  "expected_status": "clarification_needed",
+  "expected_answer": null
+ },
+ {
+  "query_id": "d15",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 333
+  }
+ },
+ {
+  "query_id": "d16",
+  "expected_status": "answered",
+  "expected_answer": null
+ }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "query_id": "d01",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d01.jsonl"
+  },
+  {
+    "query_id": "d02",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d02.jsonl"
+  },
+  {
+    "query_id": "d03",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d03.jsonl"
+  },
+  {
+    "query_id": "d04",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d04.jsonl"
+  },
+  {
+    "query_id": "d05",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d05.jsonl"
+  },
+  {
+    "query_id": "d06",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d06.jsonl"
+  },
+  {
+    "query_id": "d07",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d07.jsonl"
+  },
+  {
+    "query_id": "d08",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d08.jsonl"
+  },
+  {
+    "query_id": "d09",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d09.jsonl"
+  },
+  {
+    "query_id": "d10",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d10.jsonl"
+  },
+  {
+    "query_id": "d11",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d11.jsonl"
+  },
+  {
+    "query_id": "d12",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d12.jsonl"
+  },
+  {
+    "query_id": "d13",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d13.jsonl"
+  },
+  {
+    "query_id": "d14",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d14.jsonl"
+  },
+  {
+    "query_id": "d15",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d15.jsonl"
+  },
+  {
+    "query_id": "d16",
+    "status": "error",
+    "answer_text": "RateLimitError: Error code: 429",
+    "answer": null,
+    "tools_used": [],
+    "trace_file": "dev/traces/d16.jsonl"
+  }
+]

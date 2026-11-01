@@ -1,0 +1,23 @@
+# Secrets: never commit an API key
+.env
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local caches and scratch
+.llm_cache/
+_to_delete/
+curation/run.log
+dev/run.log
+
+# The starter kit's CI is for the class registry, not this project
+.github/
+
+# Individual Assignment 3 work: not part of the shared group project
+bootcamp/
+tests/bootcamp/
+template/
+STUDENT_INSTRUCTIONS.md

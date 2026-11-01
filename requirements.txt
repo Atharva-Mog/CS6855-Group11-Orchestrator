@@ -1,0 +1,5 @@
+numpy>=1.24
+openai>=1.40
+python-dotenv>=1.0
+networkx>=3.0   # for tests only: never import it in tool.py
+pytest>=7.0

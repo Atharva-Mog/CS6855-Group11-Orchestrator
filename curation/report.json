@@ -1,0 +1,5684 @@
+{
+ "articulation_points_bridges": [
+  {
+   "impl": "3237bc9e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.059,
+   "desc_len": 491,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis articulation points",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "lesmis bridge count",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.059
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8f0a9ac4",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 281,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis articulation points",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "lesmis bridge count",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f6f61ae0",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.06,
+   "desc_len": 389,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis articulation points",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "lesmis bridge count",
+     "pass": true,
+     "secs": 0.016
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.06
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "betweenness_centrality": [
+  {
+   "impl": "2f7893e5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.683,
+   "desc_len": 836,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.683
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "fcd76f91",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.766,
+   "desc_len": 762,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.766
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "98eff80e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.851,
+   "desc_len": 356,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.851
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f6f61ae0",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 1.194,
+   "desc_len": 419,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.016
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 1.194
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c1fb2ea9",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 1.097,
+   "desc_len": 304,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 1.097
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7b0e9b7e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.612,
+   "desc_len": 713,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.612
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "d69742a9",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 1.602,
+   "desc_len": 340,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 1.602
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f897d4c5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 1.125,
+   "desc_len": 80,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "karate top-5",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 1.125
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "bipartite_check": [
+  {
+   "impl": "3c8c3c69",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.05,
+   "desc_len": 771,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects is bipartite",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "karate is not",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.05
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "6e31812a",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.041,
+   "desc_len": 684,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects is bipartite",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate is not",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.041
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7780ae37",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 608,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects is bipartite",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate is not",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "62a230f4",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.044,
+   "desc_len": 368,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects is bipartite",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate is not",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.044
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "bipartite_matching": [
+  {
+   "impl": "d02c8330",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 761,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f9857550",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 696,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3f28ff34",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 878,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e2346c64",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 652,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "54d073a3",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 593,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8f0a9ac4",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 342,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c52598eb",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 658,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8809b513",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 489,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "projects matching size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "closeness_centrality": [
+  {
+   "impl": "7065a2b5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.353,
+   "desc_len": 822,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.016
+    },
+    {
+     "check": "lesmis values",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.353
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7b0e9b7e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.224,
+   "desc_len": 757,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "lesmis values",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.224
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "afc500fb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 457,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "lesmis values",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "64036f4f",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.355,
+   "desc_len": 312,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "lesmis values",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.355
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7cc0c2d7",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.32,
+   "desc_len": 228,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "lesmis values",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.32
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "clustering_coefficient": [
+  {
+   "impl": "7065a2b5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.158,
+   "desc_len": 807,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.017
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.158
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "da50612d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.057,
+   "desc_len": 779,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.057
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "219c8a12",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.056,
+   "desc_len": 765,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.056
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "6ae0e02c",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.177,
+   "desc_len": 693,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.177
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "d02c8330",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.073,
+   "desc_len": 632,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.073
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7b0e9b7e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.17,
+   "desc_len": 609,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.17
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3ddaa37e",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.041,
+   "desc_len": 364,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1 local",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate average",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.041
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "connected_components": [
+  {
+   "impl": "4ebce3f0",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.063,
+   "desc_len": 754,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.063
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e2346c64",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.065,
+   "desc_len": 671,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.065
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f9857550",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.085,
+   "desc_len": 662,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.085
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3237bc9e",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.066,
+   "desc_len": 569,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.066
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "991d1029",
+   "score": 4,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.039,
+   "desc_len": 628,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.039
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "1e59ba80",
+   "score": 4,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 764,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.04
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "37c243f2",
+   "score": 4,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.039,
+   "desc_len": 249,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "projects count",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "projects largest size",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate one component",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.039
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "degree_centrality": [
+  {
+   "impl": "c52598eb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.048,
+   "desc_len": 612,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate top-5 ids",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs, top node",
+     "pass": true,
+     "secs": 0.048
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "54d073a3",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.039,
+   "desc_len": 583,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate top-5 ids",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs, top node",
+     "pass": true,
+     "secs": 0.039
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "62a230f4",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 372,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate top-5 ids",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs, top node",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "a018559c",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.042,
+   "desc_len": 244,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate top-5 ids",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs, top node",
+     "pass": true,
+     "secs": 0.042
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f897d4c5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 79,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate top-5 ids",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs, top node",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "degree_distribution": [
+  {
+   "impl": "f3b11984",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 634,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "6e31812a",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.042,
+   "desc_len": 825,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.017
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.019
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.042
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "63fb3e40",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.041,
+   "desc_len": 747,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.041
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c4576e71",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 626,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.012
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c7c2ef65",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 858,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c1fb2ea9",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 489,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "efd53284",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.042,
+   "desc_len": 457,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "karate max degree",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate count of degree-2 nodes",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.042
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "diameter_eccentricity": [
+  {
+   "impl": "991d1029",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.327,
+   "desc_len": 778,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate diameter",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate radius / center",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "lesmis diameter",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.327
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ab9fb3a3",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.312,
+   "desc_len": 498,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate diameter",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate radius / center",
+     "pass": true,
+     "secs": 0.021
+    },
+    {
+     "check": "lesmis diameter",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.312
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ae9bcafc",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 0.279,
+   "desc_len": 347,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate diameter",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate radius / center",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "lesmis diameter",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.279
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "d69742a9",
+   "score": 5,
+   "total": 5,
+   "deterministic": true,
+   "max_airports_secs": 1.234,
+   "desc_len": 377,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate diameter",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate radius / center",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "lesmis diameter",
+     "pass": true,
+     "secs": 0.028
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 1.234
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "ego_network": [
+  {
+   "impl": "d35c782d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 996,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "b2d75536",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.043,
+   "desc_len": 842,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "98eff80e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 356,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "51616f3b",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 547,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e1e14ad1",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.054,
+   "desc_len": 542,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.054
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "afc500fb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 372,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate m1 subgraph",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "girvan_newman": [
+  {
+   "impl": "219c8a12",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 1010,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.015
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.074
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "d35c782d",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 908,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.015
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.073
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c7c2ef65",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 943,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.016
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.059
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3c8c3c69",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 939,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.015
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.068
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3237bc9e",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 727,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.019
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.08
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "80ae2fd8",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 362,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.019
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.098
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "afc500fb",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 459,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.036
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "64036f4f",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 295,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate first split sizes",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "lesmis runs",
+     "pass": true,
+     "secs": 0.099
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "graph_summary": [
+  {
+   "impl": "a20d8c29",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 707,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "karate avg degree",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "2f7893e5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.056,
+   "desc_len": 689,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.056
+    },
+    {
+     "check": "karate avg degree",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "41c8e8e2",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.076,
+   "desc_len": 472,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.076
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.059
+    },
+    {
+     "check": "karate avg degree",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "64036f4f",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.041,
+   "desc_len": 221,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.041
+    },
+    {
+     "check": "karate avg degree",
+     "pass": true,
+     "secs": 0.012
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "5c98c8eb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.071,
+   "desc_len": 140,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.038
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.071
+    },
+    {
+     "check": "karate avg degree",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "80ae2fd8",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.085,
+   "desc_len": 369,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "airports counts",
+     "pass": true,
+     "secs": 0.085
+    },
+    {
+     "check": "airports density",
+     "pass": true,
+     "secs": 0.078
+    },
+    {
+     "check": "karate avg degree",
+     "pass": false,
+     "secs": 0.016
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "greedy_coloring": [
+  {
+   "impl": "4ebce3f0",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.053,
+   "desc_len": 687,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate colour count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "lesmis colour count",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.053
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "54d073a3",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.05,
+   "desc_len": 645,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate colour count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "lesmis colour count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.05
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8809b513",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.151,
+   "desc_len": 439,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate colour count",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "lesmis colour count",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.151
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f28f69d7",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.048,
+   "desc_len": 419,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate colour count",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "lesmis colour count",
+     "pass": true,
+     "secs": 0.029
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.048
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "hits": [
+  {
+   "impl": "219c8a12",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.043,
+   "desc_len": 846,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "airports top hub or authority",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "karate runs",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "98eff80e",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 347,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "airports top hub or authority",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "karate runs",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "a20d8c29",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.053,
+   "desc_len": 809,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "airports top hub or authority",
+     "pass": true,
+     "secs": 0.053
+    },
+    {
+     "check": "karate runs",
+     "pass": true,
+     "secs": 0.033
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f9857550",
+   "score": 2,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.051,
+   "desc_len": 637,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "airports top hub or authority",
+     "pass": false,
+     "secs": 0.051
+    },
+    {
+     "check": "karate runs",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "k_core": [
+  {
+   "impl": "d02c8330",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.053,
+   "desc_len": 792,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate max core",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate densest core nodes",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.053
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "51616f3b",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.069,
+   "desc_len": 545,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate max core",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate densest core nodes",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.069
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "b2d75536",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.057,
+   "desc_len": 866,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max core",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate densest core nodes",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.057
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3f28ff34",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 774,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max core",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "karate densest core nodes",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "k_hop_neighborhood": [
+  {
+   "impl": "b2eb4e3d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.06,
+   "desc_len": 857,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.073
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.06
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3c8c3c69",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.043,
+   "desc_len": 750,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "32016695",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.043,
+   "desc_len": 738,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e7c02e9e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.041,
+   "desc_len": 590,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.041
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f1f54c61",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.043,
+   "desc_len": 833,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3f28ff34",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.044,
+   "desc_len": 693,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1 k=2",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports MAA k=1 runs",
+     "pass": true,
+     "secs": 0.044
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "label_propagation": [
+  {
+   "impl": "6ae0e02c",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.124,
+   "desc_len": 815,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate runs + subgraph",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.124
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "39bca602",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.079,
+   "desc_len": 343,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate runs + subgraph",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.079
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "a018559c",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.109,
+   "desc_len": 352,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate runs + subgraph",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.109
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f1f54c61",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.102,
+   "desc_len": 980,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate runs + subgraph",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.102
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "link_prediction": [
+  {
+   "impl": "d35c782d",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.051,
+   "desc_len": 1019,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate top Adamic-Adar pair",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.051
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "eaf1d77a",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.05,
+   "desc_len": 863,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate top Adamic-Adar pair",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.05
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "92711a92",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 734,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate top Adamic-Adar pair",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "41c8e8e2",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.053,
+   "desc_len": 579,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate top Adamic-Adar pair",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.053
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "37c243f2",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.193,
+   "desc_len": 282,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate top Adamic-Adar pair",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.193
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "louvain": [
+  {
+   "impl": "e7c02e9e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.249,
+   "desc_len": 872,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.022
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.027
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.249
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f3b11984",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.117,
+   "desc_len": 868,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.117
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "91f2b762",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.097,
+   "desc_len": 753,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.015
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.043
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.097
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "b2d75536",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.098,
+   "desc_len": 958,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.098
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c4576e71",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.291,
+   "desc_len": 649,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.018
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.291
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f28f69d7",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.163,
+   "desc_len": 489,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.163
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f1f54c61",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.042,
+   "desc_len": 826,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate modularity plausible",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "lesmis modularity plausible",
+     "pass": true,
+     "secs": 0.039
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.042
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "max_flow_min_cut": [
+  {
+   "impl": "991d1029",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.064,
+   "desc_len": 960,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.064
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "da50612d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.057,
+   "desc_len": 889,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.057
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "32016695",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.066,
+   "desc_len": 828,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.066
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "1e59ba80",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.064,
+   "desc_len": 754,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.076
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.025
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.064
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "edba08e8",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.06,
+   "desc_len": 740,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.06
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "29a7a55d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.053,
+   "desc_len": 559,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.053
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3ddaa37e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.051,
+   "desc_len": 406,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.051
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "5c98c8eb",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.054,
+   "desc_len": 93,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate m1->m34 flow",
+     "pass": false,
+     "secs": 0.007
+    },
+    {
+     "check": "courses flow",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.054
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "maximal_cliques": [
+  {
+   "impl": "6e31812a",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.227,
+   "desc_len": 820,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.037
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.227
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "92711a92",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.298,
+   "desc_len": 736,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.298
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7065a2b5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.207,
+   "desc_len": 814,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.207
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "a20d8c29",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.244,
+   "desc_len": 765,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.035
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.244
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "a018559c",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.199,
+   "desc_len": 308,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.051
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.023
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.199
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "6ae0e02c",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 734,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.04
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ab9fb3a3",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 541,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "62a230f4",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 378,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate max clique size",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "karate largest clique is a clique",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports runs",
+     "pass": false,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "minimum_spanning_tree": [
+  {
+   "impl": "b2eb4e3d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 876,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis total weight",
+     "pass": true,
+     "secs": 0.101
+    },
+    {
+     "check": "karate edges",
+     "pass": true,
+     "secs": 0.153
+    },
+    {
+     "check": "lesmis subgraph is a tree",
+     "pass": true,
+     "secs": 0.072
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "96e40bd2",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 776,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis total weight",
+     "pass": true,
+     "secs": 0.032
+    },
+    {
+     "check": "karate edges",
+     "pass": true,
+     "secs": 0.048
+    },
+    {
+     "check": "lesmis subgraph is a tree",
+     "pass": true,
+     "secs": 0.015
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "edba08e8",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 631,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis total weight",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate edges",
+     "pass": true,
+     "secs": 0.03
+    },
+    {
+     "check": "lesmis subgraph is a tree",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "3ddaa37e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 357,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis total weight",
+     "pass": true,
+     "secs": 0.036
+    },
+    {
+     "check": "karate edges",
+     "pass": true,
+     "secs": 0.024
+    },
+    {
+     "check": "lesmis subgraph is a tree",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "5c98c8eb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 326,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "lesmis total weight",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate edges",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "lesmis subgraph is a tree",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "motif_count": [
+  {
+   "impl": "63fb3e40",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.365,
+   "desc_len": 883,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.365
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "eaf1d77a",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.492,
+   "desc_len": 716,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.021
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.492
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e1e14ad1",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.118,
+   "desc_len": 854,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.016
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.118
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "81c01533",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.404,
+   "desc_len": 684,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.029
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.404
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "37c243f2",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.647,
+   "desc_len": 276,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.062
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.647
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "51616f3b",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.3,
+   "desc_len": 505,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.3
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ae9bcafc",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.151,
+   "desc_len": 327,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.151
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7cc0c2d7",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.19,
+   "desc_len": 221,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "karate triangles",
+     "pass": false,
+     "secs": 0.006
+    },
+    {
+     "check": "lesmis triangles",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports runs",
+     "pass": true,
+     "secs": 0.19
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "node_embedding_similarity": [
+  {
+   "impl": "4ebce3f0",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 2.307,
+   "desc_len": 847,
+   "n_params": 10,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.142
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 2.307
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "efd53284",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 1.03,
+   "desc_len": 882,
+   "n_params": 8,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 1.03
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "96e40bd2",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.099,
+   "desc_len": 805,
+   "n_params": 8,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.099
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7780ae37",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.398,
+   "desc_len": 616,
+   "n_params": 8,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.035
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.398
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "41c8e8e2",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.114,
+   "desc_len": 575,
+   "n_params": 8,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.026
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.114
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "39bca602",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.14,
+   "desc_len": 312,
+   "n_params": 8,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.014
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.14
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "b2eb4e3d",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.073,
+   "desc_len": 893,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "karate m1 runs",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports MAA runs",
+     "pass": true,
+     "secs": 0.073
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "node_similarity": [
+  {
+   "impl": "eaf1d77a",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 830,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ab9fb3a3",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 454,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "39bca602",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 368,
+   "n_params": 5,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.019
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.017
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "29a7a55d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 525,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "81c01533",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 430,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "d69742a9",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.0,
+   "desc_len": 380,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "karate m1/m34 common",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "karate m1/m34 jaccard",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "pagerank": [
+  {
+   "impl": "da50612d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.061,
+   "desc_len": 655,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "airports values",
+     "pass": true,
+     "secs": 0.061
+    },
+    {
+     "check": "airports top-5",
+     "pass": true,
+     "secs": 0.058
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f3b11984",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.075,
+   "desc_len": 596,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "airports values",
+     "pass": true,
+     "secs": 0.075
+    },
+    {
+     "check": "airports top-5",
+     "pass": true,
+     "secs": 0.07
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "29a7a55d",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.055,
+   "desc_len": 506,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports values",
+     "pass": true,
+     "secs": 0.055
+    },
+    {
+     "check": "airports top-5",
+     "pass": true,
+     "secs": 0.054
+    },
+    {
+     "check": "karate values",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "personalized_pagerank": [
+  {
+   "impl": "e7c02e9e",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.049,
+   "desc_len": 560,
+   "n_params": 7,
+   "checks": [
+    {
+     "check": "karate seed m34 values",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports seed MAA runs",
+     "pass": true,
+     "secs": 0.049
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e1e14ad1",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.054,
+   "desc_len": 814,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate seed m34 values",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports seed MAA runs",
+     "pass": true,
+     "secs": 0.054
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c52598eb",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.111,
+   "desc_len": 643,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "karate seed m34 values",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports seed MAA runs",
+     "pass": true,
+     "secs": 0.111
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.013
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "81c01533",
+   "score": 3,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.156,
+   "desc_len": 555,
+   "n_params": 6,
+   "checks": [
+    {
+     "check": "karate seed m34 values",
+     "pass": false,
+     "secs": 0.012
+    },
+    {
+     "check": "airports seed MAA runs",
+     "pass": true,
+     "secs": 0.156
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "reachability": [
+  {
+   "impl": "fcd76f91",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 688,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "92711a92",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 611,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "91f2b762",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.044,
+   "desc_len": 594,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.044
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7780ae37",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.05,
+   "desc_len": 473,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.05
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f6f61ae0",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 345,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.01
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "7cc0c2d7",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 124,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses reachable",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "courses unreachable",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports MAA->LIS",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "shortest_path_unweighted": [
+  {
+   "impl": "96e40bd2",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 696,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "edba08e8",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.04,
+   "desc_len": 477,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.04
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.012
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8809b513",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.039,
+   "desc_len": 457,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.039
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f28f69d7",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.058,
+   "desc_len": 364,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.058
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.009
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "ae9bcafc",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 285,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "8f0a9ac4",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.051,
+   "desc_len": 124,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS hops",
+     "pass": true,
+     "secs": 0.051
+    },
+    {
+     "check": "karate m17->m26 hops",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.004
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "shortest_path_weighted": [
+  {
+   "impl": "32016695",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 829,
+   "n_params": 4,
+   "checks": [
+    {
+     "check": "airports MAA->LIS km",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "lesmis c1->c70",
+     "pass": true,
+     "secs": 0.02
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "91f2b762",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 670,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS km",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "lesmis c1->c70",
+     "pass": true,
+     "secs": 0.012
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c4576e71",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.046,
+   "desc_len": 598,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS km",
+     "pass": true,
+     "secs": 0.046
+    },
+    {
+     "check": "lesmis c1->c70",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "f897d4c5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.063,
+   "desc_len": 77,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "airports MAA->LIS km",
+     "pass": true,
+     "secs": 0.063
+    },
+    {
+     "check": "lesmis c1->c70",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "bad node -> error",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "strongly_connected_components": [
+  {
+   "impl": "2f7893e5",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.077,
+   "desc_len": 881,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses count",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "airports largest",
+     "pass": true,
+     "secs": 0.077
+    },
+    {
+     "check": "undirected -> error or ok",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "fcd76f91",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.071,
+   "desc_len": 813,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports largest",
+     "pass": true,
+     "secs": 0.071
+    },
+    {
+     "check": "undirected -> error or ok",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "e2346c64",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.08,
+   "desc_len": 700,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports largest",
+     "pass": true,
+     "secs": 0.08
+    },
+    {
+     "check": "undirected -> error or ok",
+     "pass": true,
+     "secs": 0.007
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "80ae2fd8",
+   "score": 4,
+   "total": 4,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 148,
+   "n_params": 2,
+   "checks": [
+    {
+     "check": "courses count",
+     "pass": true,
+     "secs": 0.005
+    },
+    {
+     "check": "airports largest",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "undirected -> error or ok",
+     "pass": true,
+     "secs": 0.008
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ],
+ "topological_sort": [
+  {
+   "impl": "63fb3e40",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.052,
+   "desc_len": 718,
+   "n_params": 3,
+   "checks": [
+    {
+     "check": "courses valid order",
+     "pass": true,
+     "secs": 0.058
+    },
+    {
+     "check": "airports (cyclic) handled",
+     "pass": true,
+     "secs": 0.052
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c7c2ef65",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.06,
+   "desc_len": 829,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "courses valid order",
+     "pass": true,
+     "secs": 0.032
+    },
+    {
+     "check": "airports (cyclic) handled",
+     "pass": true,
+     "secs": 0.06
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "1e59ba80",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.047,
+   "desc_len": 731,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "courses valid order",
+     "pass": true,
+     "secs": 0.006
+    },
+    {
+     "check": "airports (cyclic) handled",
+     "pass": true,
+     "secs": 0.047
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "efd53284",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.045,
+   "desc_len": 658,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "courses valid order",
+     "pass": true,
+     "secs": 0.031
+    },
+    {
+     "check": "airports (cyclic) handled",
+     "pass": true,
+     "secs": 0.045
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  },
+  {
+   "impl": "c1fb2ea9",
+   "score": 3,
+   "total": 3,
+   "deterministic": true,
+   "max_airports_secs": 0.044,
+   "desc_len": 421,
+   "n_params": 1,
+   "checks": [
+    {
+     "check": "courses valid order",
+     "pass": true,
+     "secs": 0.011
+    },
+    {
+     "check": "airports (cyclic) handled",
+     "pass": true,
+     "secs": 0.044
+    },
+    {
+     "check": "unknown graph -> error",
+     "pass": true,
+     "secs": 0.0
+    }
+   ]
+  }
+ ]
+}

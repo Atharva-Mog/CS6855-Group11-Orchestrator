@@ -1,0 +1,66 @@
+[
+ {
+  "query_id": "d01",
+  "question": "How many edges does the karate club network have?"
+ },
+ {
+  "query_id": "d02",
+  "question": "Which member of the karate club has the most friends?"
+ },
+ {
+  "query_id": "d03",
+  "question": "What are the 3 most important airports by PageRank?"
+ },
+ {
+  "query_id": "d04",
+  "question": "What is the fewest number of flights needed to get from Chennai to Lisbon?"
+ },
+ {
+  "query_id": "d05",
+  "question": "What is the shortest route by distance from Chennai to Lisbon? Give the path."
+ },
+ {
+  "query_id": "d06",
+  "question": "Is the projects graph bipartite?"
+ },
+ {
+  "query_id": "d07",
+  "question": "What is the maximum number of students that can each be assigned a different project?"
+ },
+ {
+  "query_id": "d08",
+  "question": "In the course catalogue, does Programming Basics lead (directly or indirectly) to Machine Learning?"
+ },
+ {
+  "query_id": "d09",
+  "question": "How many triangles are there in the karate club network?"
+ },
+ {
+  "query_id": "d10",
+  "question": "What is the diameter of the Les Miserables co-appearance network in hops?"
+ },
+ {
+  "query_id": "d11",
+  "question": "In the karate network's k-core with the largest k, which member has the most connections inside that core?"
+ },
+ {
+  "query_id": "d12",
+  "question": "Find the communities in the karate network with Louvain, then tell me which member of the largest community has the highest PageRank within that community."
+ },
+ {
+  "query_id": "d13",
+  "question": "What will the ticket price be for a flight from Chennai to Delhi next week?"
+ },
+ {
+  "query_id": "d14",
+  "question": "Who is the most important one?"
+ },
+ {
+  "query_id": "d15",
+  "question": "How many airports can you reach from Chennai with at most 2 flights?"
+ },
+ {
+  "query_id": "d16",
+  "question": "Give a valid order in which to take all the courses in the course catalogue."
+ }
+]

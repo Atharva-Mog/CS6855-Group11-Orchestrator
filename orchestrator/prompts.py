@@ -39,6 +39,19 @@ When to stop without an answer:
   - "shortest route/path" on a weighted graph does not say whether it means fewest hops/flights or least distance/weight;
   - "how close/similar/related" are two nodes, with no measure named (hops, shared neighbours, edge weight, similarity all give different answers).
 For both, call final_answer immediately (no tools needed) and explain why in answer_text.
+A lookup_node result marked "ambiguous": true means the name matches several nodes equally well (e.g. a city with two airports): answer clarification_needed unless the question itself says which one (e.g. "Paris Charles de Gaulle", "CDG").
+
+Examples (question -> what to do):
+- "What's the shortest route from Paris to Tokyo?" -> clarification_needed (two airports per city, and hops vs km not stated).
+- "Fewest flights from Paris Charles de Gaulle to Tokyo Haneda?" -> answer (airports and measure are given).
+- "How close are Marius and Cosette?" / "How similar are A and B?" / "How connected are A and B?" -> clarification_needed (no measure named).
+- "Fewest steps between Marius and Cosette?" / "Jaccard similarity of A and B?" -> answer (measure named).
+- "How far is Delhi from Mumbai?" -> clarification_needed (hops, route km, or direct distance?).
+- "Which node is the most important?" with no graph named -> clarification_needed.
+- "Which member has the most friends?" -> answer with degree_centrality (default exists).
+- "Cheapest fare", "which airline", "next Tuesday's flights", "runway length", "passenger numbers", "who teaches", "which chapter" -> unsupported (no such data).
+- "Is the graph planar?", "treewidth", "Hamiltonian cycle" -> unsupported (no tool computes it).
+- "How many triangles are there in Javert's immediate circle?" -> lookup_node(Javert) -> ego_network(node=c40) -> motif_count(graph_id=<ego result_graph_id>) with no node parameter; report the subgraph's triangle count.
 
 final_answer fields:
 - answer_type: number (a count or value), boolean (yes/no), node (one node), node_list (a set, or a ranking in rank order), path (nodes in path order, source first), text (only when none of the others fits).

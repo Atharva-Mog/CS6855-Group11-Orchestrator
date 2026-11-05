@@ -1,0 +1,270 @@
+[
+ {
+  "query_id": "q01",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 20058
+  }
+ },
+ {
+  "query_id": "q02",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "FRA"
+  }
+ },
+ {
+  "query_id": "q03",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 2
+  }
+ },
+ {
+  "query_id": "q04",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "path",
+   "value": [
+    "MAA",
+    "DEL",
+    "JFK"
+   ]
+  }
+ },
+ {
+  "query_id": "q05",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "FRA",
+    "CDG",
+    "AMS",
+    "LHR",
+    "IST"
+   ],
+   "ordered": true
+  }
+ },
+ {
+  "query_id": "q06",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "DXB",
+    "DOH",
+    "FRA",
+    "KUL",
+    "SIN"
+   ],
+   "ordered": true
+  }
+ },
+ {
+  "query_id": "q07",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "boolean",
+   "value": true
+  }
+ },
+ {
+  "query_id": "q08",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "m1",
+    "m34",
+    "m33"
+   ],
+   "ordered": true
+  }
+ },
+ {
+  "query_id": "q09",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "m1"
+   ]
+  }
+ },
+ {
+  "query_id": "q10",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 5
+  }
+ },
+ {
+  "query_id": "q11",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 10
+  }
+ },
+ {
+  "query_id": "q12",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 0.4324
+  }
+ },
+ {
+  "query_id": "q13",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node_list",
+   "value": [
+    "CS101",
+    "MA101",
+    "MA102",
+    "CS102",
+    "CS202",
+    "MA201",
+    "MA202",
+    "CS203",
+    "CS201",
+    "CS302",
+    "CS301",
+    "CS303",
+    "CS304",
+    "CS305",
+    "CS306",
+    "CS307",
+    "CS401",
+    "CS402",
+    "CS405",
+    "CS403",
+    "CS404"
+   ],
+   "check": "topological_order",
+   "graph_id": "courses"
+  }
+ },
+ {
+  "query_id": "q14",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 9
+  }
+ },
+ {
+  "query_id": "q15",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "MUC"
+  }
+ },
+ {
+  "query_id": "q16",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 4122
+  }
+ },
+ {
+  "query_id": "q17",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "m2"
+  }
+ },
+ {
+  "query_id": "q18",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "ORD"
+  }
+ },
+ {
+  "query_id": "q19",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "m34"
+  }
+ },
+ {
+  "query_id": "q20",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 0.6457
+  }
+ },
+ {
+  "query_id": "q21",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "c40"
+  }
+ },
+ {
+  "query_id": "q22",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "number",
+   "value": 96
+  }
+ },
+ {
+  "query_id": "q23",
+  "expected_status": "answered",
+  "expected_answer": {
+   "type": "node",
+   "value": "DEL"
+  }
+ },
+ {
+  "query_id": "q24",
+  "expected_status": "clarification_needed",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q25",
+  "expected_status": "clarification_needed",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q26",
+  "expected_status": "clarification_needed",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q27",
+  "expected_status": "unsupported",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q28",
+  "expected_status": "unsupported",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q29",
+  "expected_status": "unsupported",
+  "expected_answer": null
+ },
+ {
+  "query_id": "q30",
+  "expected_status": "unsupported",
+  "expected_answer": null
+ }
+]

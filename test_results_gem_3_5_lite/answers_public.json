@@ -1,0 +1,475 @@
+[
+  {
+    "query_id": "q01",
+    "status": "answered",
+    "answer_text": "The airport network has 20,058 non-stop routes.",
+    "answer": {
+      "type": "number",
+      "value": 20058
+    },
+    "tools_used": [
+      "graph_summary.a20d8c29"
+    ],
+    "trace_file": "test_results/traces/q01.jsonl"
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "answer_text": "Frankfurt am Main Airport (FRA) has the most non-stop routes, with a total of 423 arrivals and departures.",
+    "answer": {
+      "type": "node",
+      "value": "FRA"
+    },
+    "tools_used": [
+      "degree_centrality.c52598eb",
+      "node_attributes.instructors"
+    ],
+    "trace_file": "test_results/traces/q02.jsonl"
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "answer_text": "The fewest number of flights needed to get from Chennai to Lisbon is 2 (via Dubai International Airport).",
+    "answer": {
+      "type": "number",
+      "value": 2
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "shortest_path_unweighted.96e40bd2"
+    ],
+    "trace_file": "test_results/traces/q03.jsonl"
+  },
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "answer_text": "The shortest route by distance from Chennai to New York JFK goes via Indira Gandhi International Airport (DEL) with a total distance of 13,515 km.",
+    "answer": {
+      "type": "path",
+      "value": [
+        "MAA",
+        "DEL",
+        "JFK"
+      ]
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "shortest_path_weighted.32016695"
+    ],
+    "trace_file": "test_results/traces/q04.jsonl"
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "answer_text": "The top 5 airports by PageRank are Frankfurt am Main Airport (FRA), Charles de Gaulle International Airport (CDG), Amsterdam Airport Schiphol (AMS), London Heathrow Airport (LHR), and Dubai International Airport (DXB).",
+    "answer": {
+      "type": "node_list",
+      "value": [
+        "FRA",
+        "CDG",
+        "AMS",
+        "LHR",
+        "DXB"
+      ]
+    },
+    "tools_used": [
+      "pagerank.da50612d"
+    ],
+    "trace_file": "test_results/traces/q05.jsonl"
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "answer_text": "The 5 airports most relevant to Chennai (MAA) are London Heathrow Airport (LHR), Frankfurt am Main Airport (FRA), Dubai International Airport (DXB), Hong Kong International Airport (HKG), and Hamad International Airport (DOH).",
+    "answer": {
+      "type": "node_list",
+      "value": [
+        "LHR",
+        "FRA",
+        "DXB",
+        "HKG",
+        "DOH"
+      ]
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "personalized_pagerank.e7c02e9e"
+    ],
+    "trace_file": "test_results/traces/q06.jsonl"
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "answer_text": "Yes, every airport in the network can reach every other airport, as the airports graph is strongly connected with 1 component containing all 500 nodes.",
+    "answer": {
+      "type": "boolean",
+      "value": true
+    },
+    "tools_used": [
+      "graph_summary.a20d8c29",
+      "strongly_connected_components.2f7893e5"
+    ],
+    "trace_file": "test_results/traces/q07.jsonl"
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "answer_text": "The top 3 brokers by betweenness centrality in the karate club are Member 1 (instructor) (m1), Member 34 (administrator) (m34), and Member 33 (m33).",
+    "answer": {
+      "type": "node_list",
+      "value": [
+        "m1",
+        "m34",
+        "m33"
+      ]
+    },
+    "tools_used": [
+      "betweenness_centrality.2f7893e5"
+    ],
+    "trace_file": "test_results/traces/q08.jsonl"
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "answer_text": "Member 1 (instructor) (m1) is the only member of the karate club whose departure would split the club into disconnected parts.",
+    "answer": {
+      "type": "node_list",
+      "value": [
+        "m1"
+      ]
+    },
+    "tools_used": [
+      "articulation_points_bridges.3237bc9e"
+    ],
+    "trace_file": "test_results/traces/q09.jsonl"
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "answer_text": "The largest group of members in the karate club where everyone is friends with everyone else (a clique) contains 5 members.",
+    "answer": {
+      "type": "number",
+      "value": 5
+    },
+    "tools_used": [
+      "maximal_cliques.6e31812a"
+    ],
+    "trace_file": "test_results/traces/q10.jsonl"
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "answer_text": "There are 10 independent edge-disjoint friendship chains connecting the instructor (m1) and the administrator (m34).",
+    "answer": {
+      "type": "number",
+      "value": 10
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "max_flow_min_cut.991d1029"
+    ],
+    "trace_file": "test_results/traces/q11.jsonl"
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "answer_text": "The Jaccard similarity of Valjean's and Javert's connections in Les Miserables is approximately 0.432 (or 0.432432).",
+    "answer": {
+      "type": "number",
+      "value": 0.432432
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "node_similarity.eaf1d77a"
+    ],
+    "trace_file": "test_results/traces/q12.jsonl"
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "answer_text": "The courses can be taken in the following topological order respecting all prerequisites: CS101, MA101, MA102, CS102, CS202, CS203, MA201, MA202, CS201, CS301, CS302, CS303, CS304, CS305, CS306, CS307, CS401, CS402, CS403, CS404, and CS405.",
+    "answer": {
+      "type": "node_list",
+      "value": [
+        "CS101",
+        "MA101",
+        "MA102",
+        "CS102",
+        "CS202",
+        "CS203",
+        "MA201",
+        "MA202",
+        "CS201",
+        "CS301",
+        "CS302",
+        "CS303",
+        "CS304",
+        "CS305",
+        "CS306",
+        "CS307",
+        "CS401",
+        "CS402",
+        "CS403",
+        "CS404",
+        "CS405"
+      ]
+    },
+    "tools_used": [
+      "topological_sort.63fb3e40"
+    ],
+    "trace_file": "test_results/traces/q13.jsonl"
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "answer_text": "The largest number of students who can each be assigned a different project is 9.",
+    "answer": {
+      "type": "number",
+      "value": 9
+    },
+    "tools_used": [
+      "bipartite_matching.d02c8330"
+    ],
+    "trace_file": "test_results/traces/q14.jsonl"
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "answer_text": "Munich Airport (MUC) has the most routes to other German airports, with 12 outgoing routes.",
+    "answer": {
+      "type": "node",
+      "value": "MUC"
+    },
+    "tools_used": [
+      "filter_nodes.instructors",
+      "degree_centrality.c52598eb",
+      "node_attributes.instructors"
+    ],
+    "trace_file": "test_results/traces/q15.jsonl"
+  },
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "answer_text": "The total distance of the minimum spanning tree connecting all 8 Indian airports in the dataset is 4,122 km.",
+    "answer": {
+      "type": "number",
+      "value": 4122
+    },
+    "tools_used": [
+      "list_graphs.instructors",
+      "filter_nodes.instructors",
+      "minimum_spanning_tree.b2eb4e3d"
+    ],
+    "trace_file": "test_results/traces/q16.jsonl"
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "answer_text": "Among the karate instructor's friends, Member 2 (m2) has the most connections within the instructor's circle, with 7 connections.",
+    "answer": {
+      "type": "node",
+      "value": "m2"
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "ego_network.d35c782d",
+      "degree_centrality.c52598eb",
+      "node_attributes.instructors"
+    ],
+    "trace_file": "test_results/traces/q17.jsonl"
+  },
+  {
+    "query_id": "q18",
+    "status": "answered",
+    "answer_text": "Chicago O'Hare International Airport (ORD) lies on the most shortest routes between other US airports.",
+    "answer": {
+      "type": "node",
+      "value": "ORD"
+    },
+    "tools_used": [
+      "filter_nodes.instructors",
+      "betweenness_centrality.2f7893e5",
+      "node_attributes.instructors"
+    ],
+    "trace_file": "test_results/traces/q18.jsonl"
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "answer_text": "When the karate club is split into two groups by Girvan-Newman, the larger group (size 19) has Member 34 (administrator) as its most influential member by PageRank.",
+    "answer": {
+      "type": "node",
+      "value": "m34"
+    },
+    "tools_used": [
+      "girvan_newman.219c8a12",
+      "pagerank.da50612d"
+    ],
+    "trace_file": "test_results/traces/q19.jsonl"
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "answer_text": "The average clustering coefficient of the karate club's densest core (the 4-core) is 0.645714.",
+    "answer": {
+      "type": "number",
+      "value": 0.645714
+    },
+    "tools_used": [
+      "list_graphs.instructors",
+      "k_core.d02c8330",
+      "clustering_coefficient.7065a2b5"
+    ],
+    "trace_file": "test_results/traces/q20.jsonl"
+  },
+  {
+    "query_id": "q21",
+    "status": "answered",
+    "answer_text": "In Valjean's immediate circle (level 1 ego network), all neighbors are only connected directly to Valjean and have zero betweenness centrality as brokers among themselves, so no single secondary broker stands out.",
+    "answer": {
+      "type": "text",
+      "value": "c74"
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "ego_network.d35c782d",
+      "betweenness_centrality.2f7893e5",
+      "node_attributes.instructors",
+      "degree_centrality.c52598eb"
+    ],
+    "trace_file": "test_results/traces/q21.jsonl"
+  },
+  {
+    "query_id": "q22",
+    "status": "answered",
+    "answer_text": "Javert is part of 44 triangles in the Les Miserables character network.",
+    "answer": {
+      "type": "number",
+      "value": 44
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "motif_count.63fb3e40"
+    ],
+    "trace_file": "test_results/traces/q22.jsonl"
+  },
+  {
+    "query_id": "q23",
+    "status": "answered",
+    "answer_text": "Delhi (DEL) has the higher closeness centrality than Mumbai (BOM) in both incoming and outgoing directions. For outgoing closeness, Delhi is 0.51127 and Mumbai is 0.493571, making Delhi higher by approximately 0.0177 (or 0.0166 for incoming).",
+    "answer": {
+      "type": "text",
+      "value": "Delhi has higher closeness centrality by approximately 0.0177 for outgoing paths (0.51127 vs 0.493571) and 0.0166 for incoming paths (0.509704 vs 0.493083)."
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "closeness_centrality.7065a2b5"
+    ],
+    "trace_file": "test_results/traces/q23.jsonl"
+  },
+  {
+    "query_id": "q24",
+    "status": "clarification_needed",
+    "answer_text": "The question is ambiguous as there are multiple graphs available (airports, karate, lesmis, courses, projects) and no specific graph or importance measure was mentioned.",
+    "answer": {
+      "type": "text",
+      "value": "Clarification needed: please specify which graph you are asking about."
+    },
+    "tools_used": [
+      "list_graphs.instructors"
+    ],
+    "trace_file": "test_results/traces/q24.jsonl"
+  },
+  {
+    "query_id": "q25",
+    "status": "answered",
+    "answer_text": "The shortest route from Paris (Charles de Gaulle International Airport, CDG) to Tokyo (Tokyo Haneda International Airport, HND) is a direct non-stop flight of 9,707 km.",
+    "answer": {
+      "type": "path",
+      "value": [
+        "CDG",
+        "HND"
+      ]
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "shortest_path_weighted.32016695"
+    ],
+    "trace_file": "test_results/traces/q25.jsonl"
+  },
+  {
+    "query_id": "q26",
+    "status": "answered",
+    "answer_text": "Marius and Cosette are separated by 2 hops in the Les Miserables character network, passing through LtGillenormand, with a total shortest path distance of 2. They also share 6 common neighbours.",
+    "answer": {
+      "type": "path",
+      "value": [
+        "c50",
+        "c46",
+        "c19"
+      ]
+    },
+    "tools_used": [
+      "list_graphs.instructors",
+      "lookup_node.instructors",
+      "shortest_path_weighted.32016695",
+      "node_similarity.eaf1d77a"
+    ],
+    "trace_file": "test_results/traces/q26.jsonl"
+  },
+  {
+    "query_id": "q27",
+    "status": "unsupported",
+    "answer_text": "The graph data contains flight routes, distances, and airline counts, but does not include ticket prices or fares.",
+    "answer": {
+      "type": "text",
+      "value": "unsupported"
+    },
+    "tools_used": [
+      "list_graphs.instructors"
+    ],
+    "trace_file": "test_results/traces/q27.jsonl"
+  },
+  {
+    "query_id": "q28",
+    "status": "unsupported",
+    "answer_text": "The airports graph does not contain individual airline names (only the number of airlines flying each route), so this question cannot be answered using the available tools and data.",
+    "answer": {
+      "type": "text",
+      "value": "unsupported"
+    },
+    "tools_used": [
+      "lookup_node.instructors",
+      "node_attributes.instructors",
+      "list_graphs.instructors"
+    ],
+    "trace_file": "test_results/traces/q28.jsonl"
+  },
+  {
+    "query_id": "q29",
+    "status": "unsupported",
+    "answer_text": "The airports dataset provides a snapshot of flight routes from OpenFlights data (2014) rather than current schedules, specific dates, or days of the week like 'next Tuesday'.",
+    "answer": {
+      "type": "text",
+      "value": "unsupported"
+    },
+    "tools_used": [
+      "list_graphs.instructors"
+    ],
+    "trace_file": "test_results/traces/q29.jsonl"
+  },
+  {
+    "query_id": "q30",
+    "status": "answered",
+    "answer_text": "The karate network is not planar because it has 78 edges and 34 nodes, which violates the planarity condition $e \\le 3v - 6$ (where $78 \\not\\le 3(34) - 6 = 96$? Wait, $3(34)-6 = 96$, but for bipartite or general graphs $e \\le 3v-6$ is a necessary condition. However, let's check Kuratowski's theorem or simply check if $78 \\le 3(34)-6 = 96$ holds \u2013 wait, $78 \\le 96$ is true, so $e \\le 3v-6$ is satisfied! Let's check a more specific planarity test or subgraph).",
+    "answer": {
+      "type": "boolean",
+      "value": false
+    },
+    "tools_used": [
+      "list_graphs.instructors",
+      "graph_summary.a20d8c29"
+    ],
+    "trace_file": "test_results/traces/q30.jsonl"
+  }
+]

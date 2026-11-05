@@ -1,6 +1,7 @@
 """Answer a file of graph questions.
 
     python run_queries.py --queries queries_public.json --out answers.json
+    python run_queries.py --queries CS6855_Public_Query_Set.xlsx --out answers.json  (or .csv)
 
 The API key is read from the environment variable LLM_API_KEY (or a .env file).
 Traces go to traces/<query_id>.jsonl.
@@ -13,13 +14,31 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
+import pandas as pd  # noqa: E402
+
 from graphkit.trace import Trace  # noqa: E402
 from orchestrator.agent import Orchestrator  # noqa: E402
 from orchestrator.llm import LLM  # noqa: E402
 
 
+def load_table_queries(path: Path) -> list[dict]:
+    """Reads the 'Query ID' and 'Question' columns of a CSV or Excel file (e.g. the course's public query set);
+    other columns are ignored. For Excel, the first sheet is used. Rows missing either (blank rows, footnotes) are skipped."""
+    if path.suffix.lower() in (".xlsx", ".xls"):
+        df = pd.read_excel(path, sheet_name=0, dtype=str)
+    else:
+        df = pd.read_csv(path, dtype=str, encoding="utf-8-sig")
+    df.columns = df.columns.str.strip().str.lower().str.replace("_", " ")
+    df = df[["query id", "question"]].fillna("").apply(lambda col: col.str.strip())
+    df = df[(df["query id"] != "") & (df["question"] != "")]
+    return df.rename(columns={"query id": "query_id"}).to_dict("records")
+
+
 def load_queries(path: Path) -> list[dict]:
-    """Accepts a JSON list, a JSON object holding a list, or JSON lines. Each query needs an id and a question."""
+    """Accepts a CSV, an Excel file, a JSON list, a JSON object holding a list, or JSON lines.
+    Each query needs an id and a question."""
+    if path.suffix.lower() in (".csv", ".xlsx", ".xls"):
+        return load_table_queries(path)
     text = path.read_text(encoding="utf-8").strip()
     if text.startswith("[") or text.startswith("{"):
         try:
@@ -44,7 +63,7 @@ def load_queries(path: Path) -> list[dict]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--queries", required=True, help="file of questions (JSON list or JSON lines)")
+    ap.add_argument("--queries", required=True, help="file of questions (CSV/Excel with 'Query ID'/'Question' columns, JSON list or JSON lines)")
     ap.add_argument("--out", default="answers.json", help="where to write the answers")
     ap.add_argument("--traces", default="traces", help="folder for the trace files")
     ap.add_argument("--only", help="comma-separated query ids to run (for testing)")

@@ -43,16 +43,26 @@ cp .env.example .env      # Windows: Copy-Item .env.example .env
 
 ### Run
 
+The query file can be an Excel/CSV file (only the `Query ID` and `Question` columns are read) or JSON.
+
+**Recommended: in batches**, with a pause between them so the API rate limit / quota isn't exhausted:
+
 ```bash
-python run_queries.py --queries queries_public.json --out answers_public.json
+python run_batches.py --queries CS6855_Public_Query_Set.xlsx --out-dir . --batch-size 5 --sleep 60
 ```
 
-- Answers go to the `--out` file; one trace per question goes to `traces/<query_id>.jsonl`.
+Answers go to `<out-dir>/answers_public.json` and traces to `<out-dir>/traces/`. If it stops midway,
+re-run the same command: questions already answered are skipped.
+
+**Or directly, all at once:**
+
+```bash
+python run_queries.py --queries CS6855_Public_Query_Set.xlsx --out answers_public.json
+```
+
+- One trace per question goes to `traces/<query_id>.jsonl`.
 - `--only q03,q07` runs just those questions (other answers in the output file are kept).
 - LLM responses are cached in `.llm_cache/`, so re-running costs nothing; `--no-cache` forces fresh calls.
-
-The query file may be a JSON list, a JSON object holding a list, or JSON lines. Each item needs a
-question (`question` / `query` / `text`) and ideally an id (`query_id` / `id`).
 
 ### Score against expected answers
 
@@ -134,6 +144,7 @@ Same structure as Assignment 3, plus the orchestrator:
 | Path | What it is |
 | --- | --- |
 | `run_queries.py` | The one-command runner |
+| `run_batches.py` | Runs `run_queries.py` in batches with pauses, to stay under rate limits |
 | `evaluate.py` | Scores answers against expected answers |
 | `orchestrator/` | Agent loop, planner prompts, tool discovery, LLM client |
 | `registry/tools/` | The chosen implementation of each tool (one per tool) |

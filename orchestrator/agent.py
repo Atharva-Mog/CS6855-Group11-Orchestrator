@@ -36,6 +36,23 @@ def _coerce(args: dict, props: dict) -> dict:
     return out
 
 
+def _flag_ambiguous_lookup(out: dict) -> dict:
+    """If lookup_node finds several nodes with the same best score, say so explicitly in the output."""
+    try:
+        res = out.get("result") or []
+        best = max(r.get("score", 0) for r in res)
+        tied = [r for r in res if r.get("score", 0) >= best - 1e-9]
+        if len(res) > 1 and len(tied) > 1 and best >= 0.9:
+            out = dict(out)
+            out["ambiguous"] = True
+            names = ", ".join(f"{r['label']} ({r['id']})" for r in tied)
+            out["note"] = (f"AMBIGUOUS: {len(tied)} nodes match equally well: {names}. Unless the question "
+                           f"itself says which one is meant, answer with status clarification_needed.")
+    except Exception:
+        pass
+    return out
+
+
 def _parse_value(raw, answer_type):
     """answer_value arrives as a JSON string; turn it into the right Python type."""
     val = raw
@@ -120,6 +137,8 @@ class Orchestrator:
                     args = _coerce(args, self.toolbox.params(name))
                     try:
                         out = self.toolbox.tools[name].run(store, **args)
+                        if name == "lookup_node" and isinstance(out, dict):
+                            out = _flag_ambiguous_lookup(out)
                     except TypeError as exc:
                         out = {"status": "error", "result": None, "summary": "", "result_graph_id": None,
                                "error": f"Bad arguments for {name}: {exc}. Check the tool's parameters."}

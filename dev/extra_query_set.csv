@@ -1,0 +1,42 @@
+Query ID,Graph,Question,Expected status,Answer type,Expected answer,Working (NetworkX),Notes
+x01,lesmis,How many pairs of characters appear together in at least one chapter?,answered,number,254,,
+x02,lesmis,Which character shares chapters with the most other characters?,answered,node,c74,degree 36,
+x03,airports,What is the fewest number of flights needed to get from Bengaluru to Honolulu?,answered,number,3,,
+x04,airports,What is the shortest route by distance from Delhi to Sydney?,answered,path,DEL → SYD,10435 km,
+x05,karate,What are the top 3 members of the karate club by PageRank?,answered,node_list,"m34, m1, m33",,Ranked: order matters
+x06,karate,"Which 3 members, other than the administrator, are most relevant to the administrator?",answered,node_list,"m33, m1, m3",personalized PageRank from m34,Ranked: order matters
+x07,lesmis,Which characters would split the co-appearance network into disconnected parts if removed?,answered,node_list,"c29, c32, c47, c52, c54, c63, c71, c74",,
+x08,courses,Can all the courses be taken in an order where every prerequisite comes first?,answered,boolean,true,,
+x09,karate,What is the Jaccard similarity of the instructor's and the administrator's friends?,answered,number,0.1379,4 common,
+x10,karate,Which member lies on the most shortest paths between other members?,answered,node,m1,,
+x11,airports,Can you fly from Honolulu to Reykjavik with some sequence of flights?,answered,boolean,true,,
+x12,lesmis,What is the largest number of characters that all appear with each other?,answered,number,10,,
+x13,airports,Which French airport has the most routes to other French airports?,answered,node,NTE,French subgraph 15 airports; degree in+out,
+x14,lesmis,How many triangles are there in Valjean's immediate circle?,answered,number,159,ego network of c74 (37 nodes),
+x15,karate,"Among the administrator's friends, who has the most connections within the administrator's circle?",answered,node,m33,"ego network of m34, ego excluded",
+x16,airports,"Within Italy, which airport lies on the most shortest routes between other Italian airports?",answered,node,FCO,22 Italian airports,
+x17,karate,"Who is the most influential member, by PageRank, within the karate club's densest core?",answered,node,m3,main core k=4,
+x18,lesmis,What is the average clustering coefficient of Javert's immediate circle?,answered,number,0.8103,,
+x19,airports,"Which has the higher closeness centrality, Chennai or Bengaluru, and by how much?",answered,node,BLR,"MAA 0.4389, BLR 0.4471",Structured answer is the airport
+x20,airports,What is the fewest number of flights from Paris Charles de Gaulle to Tokyo Haneda?,answered,number,1,,Specific airports and measure given: not ambiguous
+x21,airports,What is the shortest route by distance from London Heathrow to New York JFK?,answered,path,LHR → JFK,,Measure given: not ambiguous
+x22,lesmis,What is the fewest number of steps between Marius and Cosette in the co-appearance network?,answered,number,1,,Measure given (hops): not ambiguous
+x23,karate,Which member of the karate club has the most friends?,answered,node,m34,,
+x24,airports,What's the shortest route from London to New York?,clarification_needed,—,—,,"London has 5 airports, New York 2; fewest flights or least distance?"
+x25,airports,How many flights does it take to get from Moscow to Chennai?,clarification_needed,—,—,,"Moscow has 3 airports (DME, SVO, VKO)"
+x26,airports,How far is Delhi from Mumbai?,clarification_needed,—,—,,"Hops, route distance in km, or direct distance?"
+x27,lesmis,How similar are Fantine and Cosette?,clarification_needed,—,—,,"Which measure: shared neighbours, Jaccard, embeddings?"
+x28,lesmis,How connected are Valjean and Javert?,clarification_needed,—,—,,"Direct edge weight, hops, common neighbours, or flow?"
+x29,(none),How many nodes does the graph have?,clarification_needed,—,—,,No graph is named
+x30,(none),What is the shortest path between the two most important nodes?,clarification_needed,—,—,,No graph is named
+x31,airports,Which routes connect Chicago and Shanghai?,clarification_needed,—,—,,"Two airports each (MDW/ORD, PVG/SHA); direct only or any path?"
+x32,lesmis,Who is closest to Thenardier?,clarification_needed,—,—,,Thenardier vs MmeThenardier; and 'closest' by which measure?
+x33,airports,Which airport has the longest runway?,unsupported,—,—,,No runway data
+x34,airports,How many passengers flew from Delhi to Mumbai in 2014?,unsupported,—,—,,No passenger data
+x35,airports,Which routes does Lufthansa fly out of Frankfurt?,unsupported,—,—,,"No airline names, only counts"
+x36,karate,How old is the club's instructor?,unsupported,—,—,,No age attribute
+x37,courses,Who teaches Machine Learning?,unsupported,—,—,,No instructor data
+x38,lesmis,In which chapter do Valjean and Javert first meet?,unsupported,—,—,,"No chapter data, only counts"
+x39,karate,What is the treewidth of the karate network?,unsupported,—,—,,No tool computes treewidth
+x40,lesmis,Does the Les Miserables network have a Hamiltonian cycle?,unsupported,—,—,,No tool computes this
+x41,airports,What will the weather be in Chennai tomorrow?,unsupported,—,—,,Not graph data

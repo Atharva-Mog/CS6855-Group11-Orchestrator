@@ -67,7 +67,7 @@ python run_queries.py --queries CS6855_Public_Query_Set.xlsx --out answers_publi
 ### Score against expected answers
 
 ```bash
-python evaluate.py --answers answers_public.json --expected expected_public.json
+python evaluate.py --answers answers_public.json --expected CS6855_Public_Query_Set.xlsx
 ```
 
 Uses the course rules: numbers within 0.1%, node lists as sets (in order for rankings), paths in order,

@@ -35,6 +35,3 @@
 | shortest_path_weighted | 32016695 | 4/4 | 0.046 | 91f2b762 4/4, c4576e71 4/4, f897d4c5 4/4 |
 | strongly_connected_components | 2f7893e5 | 4/4 | 0.077 | fcd76f91 4/4, e2346c64 4/4, 80ae2fd8 4/4 |
 | topological_sort | 63fb3e40 | 3/3 | 0.052 | c7c2ef65 3/3, 1e59ba80 3/3, efd53284 3/3, c1fb2ea9 3/3 |
-
-Failed checks of chosen implementations:
-

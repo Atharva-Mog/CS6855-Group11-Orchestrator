@@ -153,18 +153,3 @@ Same structure as Assignment 3, plus the orchestrator:
 | `dev/` | Practice questions with NetworkX-computed answers (`make_dev.py`) |
 | `graphkit/`, `infra_tools/`, `data/` | Provided by the course; do not edit |
 | `tests/` | Tests for the provided graphkit library |
-
-## Rules worth remembering
-
-- Never commit an API key; `.env` is git-ignored.
-- Do not edit registry tools; report bugs on the Moodle forum.
-- Do not edit `graphkit/`, `infra_tools/` or `data/`.
-- Deadline: **Fri, Nov 6, 11:59 PM IST**: one zip on Moodle with the code, `answers_public.json`,
-  `traces/` and a report (at most 4 pages).
-
-## Contributing (team)
-
-1. Create a branch: `git checkout -b <your-name>/<change>`.
-2. Test on a few questions first: `python run_queries.py --queries dev/queries_dev.json --out dev/answers_dev.json --traces dev/traces --only d01,d02`.
-3. Score: `python evaluate.py --answers dev/answers_dev.json --expected dev/expected_dev.json`.
-4. Open a pull request with what you changed and the before/after score.

@@ -29,7 +29,7 @@
 | node_embedding_similarity | 4ebce3f0 | 3/3 | 2.307 | efd53284 3/3, 96e40bd2 3/3, 7780ae37 3/3, 41c8e8e2 3/3, 39bca602 3/3, b2eb4e3d 3/3 |
 | node_similarity | eaf1d77a | 4/4 | 0.0 | ab9fb3a3 4/4, 39bca602 4/4, 29a7a55d 4/4, 81c01533 4/4, d69742a9 4/4 |
 | pagerank | da50612d | 4/4 | 0.061 | f3b11984 4/4, 29a7a55d 4/4 |
-| personalized_pagerank | e7c02e9e | 4/4 | 0.049 | e1e14ad1 4/4, c52598eb 4/4, 81c01533 3/4 |
+| personalized_pagerank | e1e14ad1 | 4/4 | 0.049 | e7c02e9e 4/4, c52598eb 4/4, 81c01533 3/4 |
 | reachability | fcd76f91 | 4/4 | 0.046 | 92711a92 4/4, 91f2b762 4/4, 7780ae37 4/4, f6f61ae0 4/4, 7cc0c2d7 4/4 |
 | shortest_path_unweighted | 96e40bd2 | 4/4 | 0.04 | edba08e8 4/4, 8809b513 4/4, f28f69d7 4/4, ae9bcafc 4/4, 8f0a9ac4 4/4 |
 | shortest_path_weighted | 32016695 | 4/4 | 0.046 | 91f2b762 4/4, c4576e71 4/4, f897d4c5 4/4 |
